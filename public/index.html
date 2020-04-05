@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensagens motivacionais</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <main>
+    <button class="copy">
+      <span class="copy-message">Texto copiado!</span>
+      <img src="img/copy.svg" alt="Copiar frase para área de transferência" class="copy-btn" id="copy-btn">
+    </button>
+
+    <h2 class="message" id="message">
+      Carregando...
+    </h2>
+
+    <div class="buttons">
+      <button id="previous-btn" class="button">
+        <img src="img/arrow-left.svg" alt="Anterior">
+      </button>
+      <button id="next-btn" class="button">
+        <img src="img/arrow-right.svg" alt="Próximo">
+      </button>
+    </div>
+  </main>
+
+  <input type="text" class="hidden" id="input-message" readonly>
+
+  <footer>
+    Created by <a href="https://darktechlc.github.io" target="_blank">Luís Clício</a>.
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
