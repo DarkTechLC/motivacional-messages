@@ -8,4 +8,4 @@
 
 - The user can copy the current message.
 
-!["Site preview"](preview.png "Site preview")
+!["Site preview"](preview.jpg "Site preview")
