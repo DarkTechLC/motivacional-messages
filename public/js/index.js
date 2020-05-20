@@ -14,10 +14,10 @@ function generateRandomNumber(min, max) {
 
 (function selectBackground() {
   const backgrounds = [
-    'img/back1.jpg',
-    'img/back2.jpg',
-    'img/back3.jpg',
-    'img/back4.jpg',
+    'img/back1.webp',
+    'img/back2.webp',
+    'img/back3.webp',
+    'img/back4.webp',
   ];
 
   const index = generateRandomNumber(0, backgrounds.length - 1);
